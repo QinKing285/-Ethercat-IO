@@ -1,0 +1,27 @@
+# 编译产物
+hpm6e00YZ_flash_xip_debug/
+build/
+build_tmp/
+output/
+lib/
+CMakeFiles/
+segger_embedded_studio/
+iar_embedded_workbench/
+*.o
+*.d
+*.elf
+*.map
+*.bin
+*.hex
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.emProject
+*.emSession
+
+# 不传的大目录（IO 版用不到）
+src/lvgl/
+src/lcd/
+src/motor_foc/
+src/motor_control/
